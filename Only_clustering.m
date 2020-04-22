@@ -1,7 +1,7 @@
 %% Script for clustering. Run on a folder with a _track.mat file
 clear; close;
 % General Params
-CNMF_Fs = 6;                                                                %Acquisition frequency (Hz) Ca-imaging (after CNMF-e)
+%CNMF_Fs = 6;                                                                %Acquisition frequency (Hz) Ca-imaging (after CNMF-e)
 analyze_Ca = false;                                                         %If Ca analysis is included
 align_to_imaging = false;                                                   %If aligning to imaging
 use_bat_cluster = true;                                                     %If using bat_cluster
